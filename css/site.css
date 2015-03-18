@@ -1,0 +1,127 @@
+/*
+Created by Alex Morral on 15/03/15.
+Copyright (c) 2015 alexmorral. All rights reserved.
+*/
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;	
+	background-color:rgba(237, 56, 122, 0.4);
+}
+a {
+	text-decoration:none;	
+}
+a:active {
+	color:#fff;	
+}
+h2, h6 {
+	text-align: center;	
+}
+b {
+	color:#fff;	
+}
+hr {
+	color:#fff;
+	background-color:#fff;
+	border:0;
+}
+#content {
+	color:#fcd20a;
+	width:600px;
+	height:320px;
+	margin:0 auto;
+	margin-top:50px;
+	border-style:solid;
+	border-width:3px;
+	border-color:#fff;
+	padding:40px;
+	background-color:#ed387a;	
+}
+#content #user-box{
+	text-align:right;
+	display:inline-block; 
+	float:right; 
+	margin-top:-10px;
+}
+#content #links {
+	margin-top:70px;	
+}
+
+#content #message-box h2{
+	text-align:center;
+}
+#content #back-box{
+	display:inline-block; 
+	margin-bottom:-15px; 
+	margin-top:-25px;
+}
+/* inbox */
+#content #messages-received .first-line,  #content #messages-sent .first-line {
+	margin-top:10px;
+	height:13px;
+	overflow:hidden;
+	padding:2px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+#content #messages-received .first-line.fullSize, #content #messages-sent .first-line.fullSize{
+	white-space:normal;
+   height: 100%;
+   transition: all 1s;
+}
+#content .second-line {
+	cursor:pointer;	
+	float:left;
+}
+#content .delete {
+	color:#fff;
+	cursor:pointer;	
+	float:right;
+}
+
+/*sendMsg*/
+#content #message-box select{
+		width:130px;
+		font-size:15px;
+		margin-left:40px;
+		margin-top:5px;
+		margin-bottom:20px;
+		border: solid 1px #000;
+		outline: 0;
+}
+#content #message-box input{
+		width:120px;
+		margin-left:40px;
+		margin-top:5px;
+		margin-bottom:20px;
+		padding: 4px;
+		margin-top:1px;
+		border: solid 1px #000;
+		outline: 0;
+}
+#content #message-box textarea{
+		width:520px;
+		height:100px;
+		margin-left:40px;
+		margin-top:5px;
+		margin-bottom:20px;
+		border: solid 1px #000;
+		outline: 0;
+		resize:none;
+}
+
+#content #message-box #submit-button{
+		text-align:center;
+		margin:0 auto;
+}
+#content #message-box #submit-button input{
+		text-align:center;
+		margin:0 auto;
+		cursor:pointer;
+		background-color:#fcd20a;
+}
+
+#content #message-box #message-info {
+	margin-top:30px;
+	text-align:center;	
+}

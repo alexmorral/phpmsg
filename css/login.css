@@ -1,0 +1,55 @@
+/* 
+Created by Alex Morral on 15/03/15.
+Copyright (c) 2015 alexmorral. All rights reserved.
+*/
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;	
+	background-color:rgba(237, 56, 122, 0.4);
+}
+#content #login {
+	color:#fcd20a;
+	/*border-radius:10px;*/
+	width:300px;
+	height:300px;
+	padding-top:30px;
+	margin:0 auto;
+	margin-top:50px;
+	border-style:solid;
+	border-width:3px;
+	border-color:#FFF;
+	text-align:center;
+	background-color:#ed387a;	
+
+}
+#content #login #inputs {
+	margin-top:70px;	
+}
+#content #login #inputs input{
+	width:50%;	
+}
+#content #login #submit-button{
+	margin-top:20px;	
+}
+
+#content #login #inputs input{ 
+	padding: 10px;
+	margin-top:1px;
+	border: solid 1px #000;
+	outline: 0;
+}
+
+
+#content #login #submit-button input{ 
+	color:#000;
+	padding: 9px;
+	cursor:pointer;
+	border: solid 1px #333;
+	font: bold 14px/100% Verdana, Tahoma, sans-serif;
+	width: 50%;
+	background-color:#fcd20a;
+	text-
+	/*border-radius:3px;*/
+}
